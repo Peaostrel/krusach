@@ -1,0 +1,35 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Color x:Key="WindowBackgroundColor">#F3F3F3</Color>
+    <Color x:Key="SidebarBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="HeaderTextColor">#007ACC</Color>
+    <Color x:Key="MainTextColor">#333333</Color>
+    <Color x:Key="CardBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="GridBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="ActionBackgroundColor">#E0E0E0</Color>
+    <Color x:Key="PanelBackgroundColor">#F9F9F9</Color>
+    <Color x:Key="SeparatorColor">#DDDDDD</Color>
+    <Color x:Key="ControlBackgroundColor">#FFFFFF</Color>
+    <Color x:Key="ControlBorderColor">#CCCCCC</Color>
+    <Color x:Key="SidebarItemSelectedColor">#E0E0E0</Color>
+    <Color x:Key="SidebarItemHoverColor">#F0F0F0</Color>
+    <Color x:Key="ButtonBackgroundColor">#E0E0E0</Color>
+    <Color x:Key="ButtonForegroundColor">#333333</Color>
+    
+    <SolidColorBrush x:Key="WindowBackgroundBrush" Color="{StaticResource WindowBackgroundColor}"/>
+    <SolidColorBrush x:Key="SidebarBackgroundBrush" Color="{StaticResource SidebarBackgroundColor}"/>
+    <SolidColorBrush x:Key="HeaderTextBrush" Color="{StaticResource HeaderTextColor}"/>
+    <SolidColorBrush x:Key="MainTextBrush" Color="{StaticResource MainTextColor}"/>
+    <SolidColorBrush x:Key="CardBackgroundBrush" Color="{StaticResource CardBackgroundColor}"/>
+    <SolidColorBrush x:Key="GridBackgroundBrush" Color="{StaticResource GridBackgroundColor}"/>
+    <SolidColorBrush x:Key="ActionBackgroundBrush" Color="{StaticResource ActionBackgroundColor}"/>
+    <SolidColorBrush x:Key="PanelBackgroundBrush" Color="{StaticResource PanelBackgroundColor}"/>
+    <SolidColorBrush x:Key="SeparatorBrush" Color="{StaticResource SeparatorColor}"/>
+    <SolidColorBrush x:Key="ControlBackgroundBrush" Color="{StaticResource ControlBackgroundColor}"/>
+    <SolidColorBrush x:Key="ControlBorderBrush" Color="{StaticResource ControlBorderColor}"/>
+    <SolidColorBrush x:Key="SidebarItemSelectedBrush" Color="{StaticResource SidebarItemSelectedColor}"/>
+    <SolidColorBrush x:Key="SidebarItemHoverBrush" Color="{StaticResource SidebarItemHoverColor}"/>
+    <SolidColorBrush x:Key="ButtonBackgroundBrush" Color="{StaticResource ButtonBackgroundColor}"/>
+    <SolidColorBrush x:Key="ButtonForegroundBrush" Color="{StaticResource ButtonForegroundColor}"/>
+    <SolidColorBrush x:Key="GridAlternatingRowBrush" Color="#000000" Opacity="0.03"/>
+</ResourceDictionary>
